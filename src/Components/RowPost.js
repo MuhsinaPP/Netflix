@@ -14,7 +14,7 @@ function RowPost(Props) {
       console.log(Response.data)
       setMovies(Response.data.results)
     })
-  }, [])
+  }, [Props.url])
 
   const opts = {
     height: '390',
