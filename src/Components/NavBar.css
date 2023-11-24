@@ -30,6 +30,8 @@
 .right{
     position: fixed;
     right: 70px;
-    
     padding: 10px;
+}
+p{
+    cursor: pointer;
 }
